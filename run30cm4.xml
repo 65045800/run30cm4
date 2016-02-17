@@ -1,16 +1,16 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_if" id="28" inline="false" x="188" y="43">
+  <block type="controls_if" id="1" inline="false" x="188" y="43">
     <mutation else="1"></mutation>
     <value name="IF0">
-      <block type="sensor_button" id="35">
+      <block type="sensor_button" id="2">
         <field name="OBJECT">DOWN</field>
       </block>
     </value>
     <statement name="DO0">
-      <block type="movement_stop" id="10"></block>
+      <block type="movement_stop" id="3"></block>
     </statement>
     <statement name="ELSE">
-      <block type="movement_forward" id="21"></block>
+      <block type="movement_forward" id="4"></block>
     </statement>
   </block>
 </xml>
